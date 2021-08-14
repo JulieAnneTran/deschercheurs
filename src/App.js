@@ -10,6 +10,8 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           This is proof that the file has been modified. 
         </p>
+        <p>THESE ARE THE CHANGES I AM MAKING.</p>
+        <p>JULIE <b>WAS</b> here @ 14/08/2021!!!</p>
         <a
           className="App-link"
           href="https://reactjs.org"
