@@ -1,26 +1,18 @@
-import logo from './logo.svg';
 import './App.css';
+import BackgroundVideo from './Components/BackgroundVideo';
 
 function App() {
+  const videoSource = "https://deschercheurs.s3.ap-southeast-2.amazonaws.com/vid_001.mp4";
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-          This is proof that the file has been modified. 
-        </p>
-        <p>THESE ARE THE CHANGES I AM MAKING.</p>
-        <p>JULIE <b>WAS</b> here @ 14/08/2021!!!</p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" style={{ height: '', }} >
+      <BackgroundVideo
+        videoSource={videoSource} >
+      </BackgroundVideo>
+      <div className="content">
+          <p className="App-header">Des Chercheurs
+            <p className="comment">Coming soon.</p>
+          </p>
+      </div>
     </div>
   );
 }
