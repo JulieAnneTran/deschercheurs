@@ -11,6 +11,7 @@ function App() {
       <div className="content">
           <p className="App-header">Des Chercheurs
             <p className="comment">Coming soon.</p>
+            <p className="footer">Created by Julie Tran.<br></br>Produced by Jace Chua.</p>
           </p>
       </div>
     </div>
